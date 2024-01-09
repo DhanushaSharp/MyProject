@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="5" time="160.717276">
+    <testcase classname="To validate the login functionality of facebook application" name="To validate login with valid username and invalid password" time="21.151595">
+        <system-out><![CDATA[Given To launch the chrome browser and maximise window......................passed
+When To launch the url of the facebook application..........................passed
+And To pass valid username in email field...................................passed
+And To pass invalid password in password field..............................passed
+And To click the login button...............................................passed
+And To check whether navigate to the home page or not.......................passed
+Then To close the browser...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the login functionality of facebook application" name="To validate the positive and combination of login functionality" time="14.057551">
+        <system-out><![CDATA[Given To launch the chrome browser and maximise window......................passed
+When User has to hit the facebook url.......................................passed
+And User has to pass the data "dhanusha3021@gmail.com" in email field.......passed
+And User has to pass the data "samaira123" in password field................passed
+And User has to click login button..........................................passed
+Then User has to close the browser..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the login functionality of facebook application" name="To validate the positive and combination of login functionality 2" time="25.498994">
+        <system-out><![CDATA[Given To launch the chrome browser and maximise window......................passed
+When User has to hit the facebook url.......................................passed
+And User has to pass the data "krishi@gmail.com" in email field.............passed
+And User has to pass the data "12345" in password field.....................passed
+And User has to click login button..........................................passed
+Then User has to close the browser..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the login functionality of facebook application" name="To validate the positive and combination of login functionality 3" time="100.007041">
+        <system-out><![CDATA[Given To launch the chrome browser and maximise window......................passed
+When User has to hit the facebook url.......................................passed
+And User has to pass the data "sammy@gmail.com" in email field..............passed
+And User has to pass the data "rits" in password field......................passed
+And User has to click login button..........................................passed
+Then User has to close the browser..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the account creation of fb application" name="To create new account" time="0.002095">
+        <skipped><![CDATA[Given To launch the browser and maximise window.............................undefined
+When To launch the url fb application.......................................undefined
+And To click the create new account button..................................undefined
+And To pass first name in firstname text box................................undefined
+And To pass secondname in secondname text box...............................undefined
+And To pass mobileno or email in email text box.............................undefined
+And To create new password using new password text box......................undefined
+Then To close the chrome browser............................................undefined
+]]></skipped>
+    </testcase>
+</testsuite>
